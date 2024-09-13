@@ -1,0 +1,94 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #e9ecef;
+  color: #333;
+}
+
+#title {
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#First-Block {
+  font-size: 2.5em;
+  color: #495057;
+}
+
+#img-div {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#image {
+  border-radius: 8px;
+  max-width: 80%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+#image:hover {
+  transform: scale(1.05);
+}
+
+#img-caption {
+  padding: 14px 0;
+  font-size: 16px;
+  color: #6c757d;
+}
+
+#tribute-info {
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 10%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+#bullet-points {
+  list-style-type: none;
+  padding: 0;
+}
+
+#bullet-points > li {
+  padding: 12px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #343a40;
+}
+
+#quotes {
+  font-style: italic;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-left: 5px solid #007bff;
+  margin: 20px 0;
+  font-size: 1.2em;
+  color: #495057;
+}
+
+#link-section {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.5em;
+}
+
+#tribute-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#tribute-link:hover {
+  text-decoration: underline;
+}
